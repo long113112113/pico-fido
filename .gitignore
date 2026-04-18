@@ -1,0 +1,19 @@
+# PlatformIO
+.pio/
+.vscode/
+
+# ESP-IDF
+build/
+managed_components/
+sdkconfig.old
+dependencies.lock
+
+# Build artifacts
+*.elf
+*.bin
+*.map
+*.hex
+
+# System files
+.DS_Store
+Thumbs.db

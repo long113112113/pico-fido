@@ -28,6 +28,7 @@ if(ESP_PLATFORM)
         set(ENABLE_PQC 0)
     endif()
     set(EXTRA_COMPONENT_DIRS
+        src
         src/fido
         pico-keys-sdk/config/esp32/components/pico-keys-sdk
         pico-keys-sdk/config/esp32/components/tinycbor
