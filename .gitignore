@@ -17,3 +17,5 @@ dependencies.lock
 # System files
 .DS_Store
 Thumbs.db
+.clangd
+.cache
